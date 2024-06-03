@@ -1,0 +1,46 @@
+{
+    "weapon_system_A": {
+        "location_lat" : 56.40,
+        "location_lon": 10.40,
+        "location_range_m": 100,
+        "kill_assesment_time_seconds": 5,
+        "interceptors" : {
+            "cannon_A": {
+                "type": "cannon",
+                "probability_of_kill_max": 0.95,
+                "probability_of_kill_min": 0.5,
+                "range_max_meters": 3000,
+                "average_velocity_ms": 1150, 
+                "shots_per_launch": 6,
+                "inventory": 250,
+                "shots_per_second": 18,
+                "cost_per_shot": 0
+            },
+            "missile_A": {
+                "type": "missile",
+                "probability_of_kill_max": 0.9,
+                "probability_of_kill_min": 0.7,
+                "range_max_meters": 8000,
+                "average_velocity_ms": 1029, 
+                "inventory": 4,
+                "shift_target_time_s": 5,
+                "cost_per_shot": 0
+            },
+            "missile_B": {
+                "type": "missile",
+                "probability_of_kill_max": 0.9,
+                "probability_of_kill_min": 0.7,
+                "range_max_meters": 20000,
+                "average_velocity_ms": 1029, 
+                "inventory": 1,
+                "shift_target_time_s": 5,
+                "cost_per_shot": 0
+            }
+        }
+    },
+    "protected_asset_A": {
+        "location_lat" : 56.40,
+        "location_lon": 10.40,
+        "location_range_m": 200
+    }
+}

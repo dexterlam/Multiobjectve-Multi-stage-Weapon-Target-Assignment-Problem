@@ -1,0 +1,27 @@
+{
+    "cruise_missile": {
+        "speed_ms": 189,
+        "threat_level": 3,
+        "kill_range_m": 0 
+    },
+    "drone": {
+        "speed_ms": 19,
+        "threat_level": 4,
+        "kill_range_m": 100 
+    },
+    "helicopter": {
+        "speed_ms": 81,
+        "threat_level": 2,
+        "kill_range_m": 1500 
+    },
+    "fixed_wing_aircraft": {
+        "speed_ms": 216,
+        "threat_level": 1,
+        "kill_range_m": 2000 
+    }
+}
+
+
+
+
+
